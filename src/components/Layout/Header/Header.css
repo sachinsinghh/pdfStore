@@ -1,0 +1,20 @@
+.main_container{
+width:1000px;
+height:auto;
+margin:auto;
+Color:red;
+}
+.top_bar{
+width:1000px;
+height:38px;
+background-color:greenyellow;
+}
+.top_search{
+width:370px;
+height:532px;
+margin:0px 20px 0 0;
+_margin:0px 10px 0 0;
+float:right;
+background-image: url('./images/top_search_bg.gif');
+background-repeat: no-repeat;
+}
