@@ -1,0 +1,122 @@
+.menu_tab{
+    width:1000px;
+    height:50px;
+    background-Color:#fff;
+    }
+    .left_menu_corner{
+    width:9px;
+    height:50px;
+    float:left;
+    background-image: url('./images/menu_left.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    }
+    .right_menu_corner{
+    width:9px;
+    height:50px;
+    float:left;
+ 
+    background-image: url('./images/menu_right.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    ul.menu {
+    list-style-type:none; float:left; display:block; width:982px; 
+    margin:0px; padding:0px;
+    background-image: url('./images/menu_bg.gif');
+    background-repeat: repeat-x;
+    }
+    
+    ul.menu li {
+    display:inline;
+    font-size:11px;
+    font-weight:bold;
+    line-height:50px;
+    }
+    ul.menu li.divider {
+    display:inline;
+    width:2px;
+    height:50px;
+    float:left;
+    background-image: url('./images/menu_divider.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    
+    a.nav1:link, a.nav1:visited {
+    display:block; float:left;
+     padding:0px 8px 0px 22px;
+      margin:0 14px 0 14px;
+      height:50px;
+      text-decoration:none; 
+      background-image: url('./images/home.png');
+      background-repeat: no-repeat;
+      background-position: left;
+      Color:#676d77;
+    }
+
+    a.nav2:link, a.nav2:visited {
+    display:block; float:left; 
+    padding:0px 8px 0px 22px; 
+    margin:0 14px 0 14px;
+    height:50px;text-decoration:none; 
+    background-image: url('./images/services.png');
+    background-repeat: no-repeat;
+    background-position: left;
+     Color:#676d77;
+    }
+    a.nav3:link, a.nav3:visited {
+    display:block; float:left; 
+    padding:0px 8px 0px 22px; 
+    margin:0 14px 0 14px;height:50px;
+    text-decoration:none; 
+    background-image: url('./images/favs.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    Color:#676d77;
+}
+    a.nav4:link, a.nav4:visited {
+    display:block; float:left;
+     padding:0px 8px 0px 22px; margin:0 14px 0 14px;
+     height:50px;text-decoration:none;
+     background-image: url('./images/user_add.png');
+     background-repeat: no-repeat;
+     background-position: left;
+
+      Color:#676d77;
+    }
+    a.nav5:link, a.nav5:visited {
+    display:block; float:left; 
+    padding:0px 8px 0px 22px; margin:0 14px 0 14px;height:50px;
+    background-image: url('./images/car.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    text-decoration:none; 
+    
+     Color:#676d77;
+    }
+    a.nav6:link, a.nav6:visited {
+    display:block; float:left; 
+    padding:0px 8px 0px 22px; margin:0 14px 0 14px;
+    height:50px;text-decoration:none;
+     
+     background-image: url('./images/contact-new.png');
+     background-repeat: no-repeat;
+     background-position: left;
+     Color:#676d77;}
+    
+    a.nav1:hover, a.nav2:hover, a.nav3:hover, a.nav4:hover, a.nav5:hover, a.nav6:hover {
+    Color:#333333;}
+    
+    
+    li.currencies{
+    width:180px;
+    float:left;
+    padding:0 0 0 15px;
+    _padding:12px 0 0 15px;
+    Color:#676d77;
+    font-size:11px;
+    font-weight:bold;
+    }
