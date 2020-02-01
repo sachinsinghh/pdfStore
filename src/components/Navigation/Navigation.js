@@ -3,7 +3,7 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div class="crumb_navigation"> Navigation: <span class="current">Home</span> </div>
+        <div className="crumb_navigation"> Navigation: <span className="current">Home</span> </div>
     );
 
 

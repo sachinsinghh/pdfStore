@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 import MainContent from './components/MainContent/MainContent';
 import Navigation from './components/Navigation/Navigation';
+import LeftContent from './components/LeftContent/LeftContent';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
          <Menu />
          <Navigation />
        </MainContent>
+       <LeftContent />
       </Layout>
     </div>
   );
