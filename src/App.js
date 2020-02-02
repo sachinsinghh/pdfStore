@@ -5,7 +5,9 @@ import Menu from './components/Menu/Menu';
 import MainContent from './components/MainContent/MainContent';
 import Navigation from './components/Navigation/Navigation';
 import LeftContent from './components/LeftContent/LeftContent';
-
+import CenterContentLandingPage from './components/CenterContentLandingPage/CenterContentLandingPage';
+import RightContent from './components/RightContent/RightContent';
+import ProductDetail from './components/ProductDetail/ProductDetail';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
          <Navigation />
        </MainContent>
        <LeftContent />
+       {/* <ProductDetail /> */}
+        <CenterContentLandingPage />
+        <RightContent />
       </Layout>
     </div>
   );
